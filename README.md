@@ -42,11 +42,33 @@ Dataset 2:
 
 ## Plots
 
-The code generates:
-- Histogram plots for ground detection  
-- Elbow plots for eps selection  
-- Cluster plots using DBSCAN  
-- Catenary cluster plots  
+## Plots
+
+### Dataset 1
+Histogram:
+![Histogram Dataset1](dataset1_histogram.png)
+
+Elbow Plot:
+![Elbow Dataset1](dataset1_elbow.png)
+
+Clusters:
+![Clusters Dataset1](dataset1_clusters.png)
+
+Catenary:
+![Catenary Dataset1](dataset1_catenary.png)
+
+### Dataset 2
+Histogram:
+![Histogram Dataset2](dataset2_histogram.png)
+
+Elbow Plot:
+![Elbow Dataset2](dataset2_elbow.png)
+
+Clusters:
+![Clusters Dataset2](dataset2_clusters.png)
+
+Catenary:
+![Catenary Dataset2](dataset2_catenary.png)  
 
 ## Final Comments
 The method works well for separating structures from LiDAR data. The catenary could be identified as the largest cluster in both datasets, although results may improve further with more tuning.
